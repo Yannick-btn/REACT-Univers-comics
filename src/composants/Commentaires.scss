@@ -1,0 +1,39 @@
+.Commentaires {
+    background-color: rgb(37, 36, 36);
+    width: 80%;
+    height: 10%;
+    border-radius: 5px;
+
+    .titre-com{
+        display: flex;
+        justify-content: center;
+        color: rgb(223, 223, 223);
+    }
+    li {
+        list-style: none; 
+        border-top: black 1px solid;
+        width: 95%;
+
+        .texte {
+            color: rgb(214, 212, 212);
+            margin-left: 2rem;
+        }
+        .vote {
+            display: flex;
+            justify-content: space-around;
+            width: 10rem;
+        }
+    }
+
+    .afficher {
+        color: rgb(139, 138, 138);
+        cursor: pointer;
+        text-align: center;
+        padding-bottom: 1rem;
+        user-select: none; 
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

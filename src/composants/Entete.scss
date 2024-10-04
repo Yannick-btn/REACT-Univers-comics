@@ -1,0 +1,48 @@
+.Entete {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 100%;
+    background-color: rgb(172, 168, 168);
+
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(172, 168, 168);
+
+
+
+        .btn {
+            background-color: whitesmoke;
+        }
+
+        .connexion, .deconnexion{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 10rem;
+
+            .google-img {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+
+        .titre {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            // background-color: orange;
+            width: 15rem;
+
+            .logo {
+                width: 4rem;
+                height: 4rem;
+            }
+        }
+    }
+}
